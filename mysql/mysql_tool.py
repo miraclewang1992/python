@@ -24,6 +24,7 @@ class DB():
         cursor=self.conn.cursor()
         cursor.execute(sqlString)
         returnData=cursor.fetchall()
+        print(type(returnData))
         cursor.close()
         self.conn.close()
         return returnData
