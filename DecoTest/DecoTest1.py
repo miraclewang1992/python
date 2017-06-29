@@ -1,4 +1,5 @@
 __author__ = 'doshest'
+
 def deco(func):
     print('the function is called')
     func()
