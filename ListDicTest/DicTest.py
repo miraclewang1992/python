@@ -13,3 +13,7 @@ for name,value in dic_test.items():
 x = {1:1,2:3,2:2,3:2}
 sorted_x =sorted(x.items(),key=operator.itemgetter(1))
 print(sorted_x)
+
+
+for tmp in range(1,1):
+    print(tmp)
